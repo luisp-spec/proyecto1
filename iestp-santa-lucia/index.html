@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- ===================== METADATOS Y SEO ===================== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto de Educación Superior Tecnológico Público Santa Lucía | Inicio</title>
+  <meta name="description" content="IESTP Santa Lucía: formación técnica de calidad en Arquitectura de Plataformas y Servicios de TI y Producción Agropecuaria. Admisión abierta. Conocimiento que crece, tecnología que conecta.">
+  <meta name="keywords" content="instituto tecnológico, IESTP Santa Lucía, educación superior, producción agropecuaria, tecnologías de la información, admisión, carreras técnicas">
+  <meta name="author" content="IESTP Santa Lucía">
+  <meta property="og:title" content="IESTP Santa Lucía — Instituto de Educación Superior Tecnológico Público">
+  <meta property="og:description" content="Formación técnica de excelencia en Tecnologías de la Información y Producción Agropecuaria.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/banner1.jpg">
+  <link rel="canonical" href="index.html">
+  <link rel="icon" type="image/png" href="img/logo.png">
+
+  <!-- ===================== FUENTES Y LIBRERÍA DE ÍCONOS ===================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- ===================== HOJA DE ESTILOS PROPIA ===================== -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- =====================================================================
+       ENCABEZADO Y NAVEGACIÓN FIJA (presente en todas las páginas)
+       ===================================================================== -->
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav__marca">
+        <img src="img/logoprin.webp" alt="Logotipo IESTP Santa Lucía" class="nav__logo" loading="lazy">
+      </a>
+
+      <ul class="nav__menu" id="menu-principal">
+        <li><a href="index.html" class="nav__link activo">Inicio</a></li>
+        <li><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+        <li><a href="carreras.html" class="nav__link">Carreras</a></li>
+        <li><a href="admision.html" class="nav__link">Admisión</a></li>
+        <li><a href="galeria.html" class="nav__link">Galería</a></li>
+        <li><a href="contacto.html" class="nav__link">Contacto</a></li>
+      </ul>
+
+      <div class="nav__acciones">
+        <div class="nav__redes">
+          <a href="https://web.facebook.com/tecno.santa.lucia?_rdc=1&_rdr#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <a href="admision.html" class="btn btn--primario btn--sm">Postula aquí</a>
+        <button class="nav__toggle" id="boton-menu" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- =====================================================================
+       HERO PRINCIPAL — Banner de portada con eslogan y llamados a la acción
+       ===================================================================== -->
+  <section class="hero">
+    <div class="hero__fondo" style="background-image:url('img/insti.jpeg');"></div>
+    <div class="hero__velo"></div>
+    <div class="hero__textura"></div>
+
+    <div class="hero__contenido">
+      <div class="hero__texto">
+        <span class="hero__eyebrow"><i class="fa-solid fa-graduation-cap"></i> Educación superior tecnológica pública</span>
+        <h1 class="hero__titulo">Instituto de Educación Superior Tecnológico Público <em>Santa Lucía</em></h1>
+        <p class="hero__subtitulo">Conocimiento que crece, tecnología que conecta. Formamos profesionales técnicos competitivos en Tecnologías de la Información y Producción Agropecuaria.</p>
+        <div class="hero__acciones">
+          <a href="admision.html" class="btn btn--primario">Admisión 2026 <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="contacto.html" class="btn btn--secundario">Contáctanos <i class="fa-solid fa-comment-dots"></i></a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="hero__stat"><strong>+18</strong><span>Años formando talento</span></div>
+          <div class="hero__stat"><strong>2</strong><span>Programas de estudio</span></div>
+          <div class="hero__stat"><strong>+1,200</strong><span>Egresados</span></div>
+          <div class="hero__stat"><strong>92%</strong><span>Empleabilidad</span></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#resumen" class="hero__scroll"><span>Descubre más</span><i class="fa-solid fa-chevron-down"></i></a>
+  </section>
+
+  <!-- =====================================================================
+       RESUMEN INSTITUCIONAL
+       ===================================================================== -->
+  <section class="seccion seccion--alt" id="resumen">
+    <div class="contenedor">
+      <div class="resumen">
+        <div class="resumen__imagen reveal">
+          <img src="img/insti.jpeg" alt="Estudiantes del IESTP Santa Lucía en laboratorio académico" loading="lazy">
+          <div class="resumen__insignia">
+            <i class="fa-solid fa-award"></i>
+            <div>
+              <strong>Licenciado</strong>
+              <span>Por el Ministerio de Educación</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resumen__texto reveal reveal--retraso-1">
+          <span class="eyebrow"><i class="fa-solid fa-circle-info"></i> Quiénes somos</span>
+          <h2 class="titulo-seccion">Un instituto público que une dos vocaciones del desarrollo nacional</h2>
+          <p class="descripcion-seccion">El IESTP Santa Lucía forma profesionales técnicos con pensamiento crítico, dominio práctico y vocación de servicio, combinando la vanguardia digital con el conocimiento del campo. Nuestros talleres, laboratorios y parcelas demostrativas son el punto de partida de cada aprendizaje.</p>
+
+          <div class="resumen__lista">
+            <div class="resumen__item">
+              <i class="fa-solid fa-laptop-code"></i>
+              <div><h4>Formación dual: aula y práctica</h4><p>Más del 60% de las horas de estudio son aplicadas en laboratorios, talleres y campos de cultivo reales.</p></div>
+            </div>
+            <div class="resumen__item">
+              <i class="fa-solid fa-handshake"></i>
+              <div><h4>Convenios con empresas e instituciones</h4><p>Prácticas pre-profesionales y bolsa de trabajo con aliados del sector tecnológico y agropecuario.</p></div>
+            </div>
+            <div class="resumen__item">
+              <i class="fa-solid fa-users"></i>
+              <div><h4>Docentes especialistas en ejercicio</h4><p>Nuestra plana docente combina experiencia académica con trayectoria profesional activa.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       PROGRAMAS DE ESTUDIO DESTACADOS — pieza visual distintiva del sitio:
+       un panel dividido que representa la fusión de tecnología y campo.
+       ===================================================================== -->
+  <section class="seccion" id="programas">
+    <div class="contenedor">
+      <div class="encabezado-seccion reveal">
+        <span class="eyebrow"><i class="fa-solid fa-layer-group"></i> Oferta formativa</span>
+        <h2 class="titulo-seccion">Dos programas, una sola exigencia: excelencia técnica</h2>
+        <p class="descripcion-seccion">Carreras de tres años orientadas a la inserción laboral inmediata, con certificación modular progresiva.</p>
+      </div>
+
+      <div class="programas-split reveal">
+        <!-- Panel Arquitectura de Plataformas y Servicios de TI -->
+        <article class="programa-panel programa-panel--tech">
+          <div class="programa-panel__cuerpo">
+            <span class="programa-panel__codigo">// Carrera N.º 01 — Código APS-TI</span>
+            <div class="programa-panel__icono"><i class="fa-solid fa-server"></i></div>
+            <h3 class="programa-panel__titulo">Arquitectura de Plataformas y Servicios de Tecnologías de la Información</h3>
+            <p class="programa-panel__texto">Diseña, implementa y administra redes, servidores, software y servicios en la nube para organizaciones públicas y privadas.</p>
+            <div class="programa-panel__chips">
+              <span>Redes y ciberseguridad</span>
+              <span>Desarrollo de software</span>
+              <span>Cloud computing</span>
+            </div>
+          </div>
+          <div class="programa-panel__pie">
+            <a href="carreras.html#tecnologia" class="btn btn--secundario btn--sm">Ver malla y detalles <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <!-- Panel Producción Agropecuaria -->
+        <article class="programa-panel programa-panel--agro">
+          <div class="programa-panel__cuerpo">
+            <span class="programa-panel__codigo">// Carrera N.º 02 — Código PROD-AGRO</span>
+            <div class="programa-panel__icono"><i class="fa-solid fa-seedling"></i></div>
+            <h3 class="programa-panel__titulo">Producción Agropecuaria</h3>
+            <p class="programa-panel__texto">Gestiona sistemas de producción agrícola y pecuaria sostenibles, aplicando tecnología e innovación al campo.</p>
+            <div class="programa-panel__chips">
+              <span>Agricultura sostenible</span>
+              <span>Crianza tecnificada</span>
+              <span>Agronegocios</span>
+            </div>
+          </div>
+          <div class="programa-panel__pie">
+            <a href="carreras.html#agropecuaria" class="btn btn--secundario btn--sm">Ver malla y detalles <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       ESTADÍSTICAS ANIMADAS
+       ===================================================================== -->
+  <section class="seccion seccion--oscura">
+    <div class="contenedor">
+      <div class="encabezado-seccion reveal">
+        <span class="eyebrow"><i class="fa-solid fa-chart-line"></i> Nuestro impacto</span>
+        <h2 class="titulo-seccion">Cifras que respaldan nuestra formación</h2>
+      </div>
+
+      <div class="estadisticas reveal">
+        <div class="estadistica">
+          <div class="estadistica__numero" data-valor="1280" data-sufijo="+">0</div>
+          <div class="estadistica__barra"></div>
+          <div class="estadistica__etiqueta">Egresados titulados</div>
+        </div>
+        <div class="estadistica">
+          <div class="estadistica__numero" data-valor="92" data-sufijo="%">0</div>
+          <div class="estadistica__barra"></div>
+          <div class="estadistica__etiqueta">Tasa de empleabilidad</div>
+        </div>
+        <div class="estadistica">
+          <div class="estadistica__numero" data-valor="38" data-sufijo="">0</div>
+          <div class="estadistica__barra"></div>
+          <div class="estadistica__etiqueta">Docentes especialistas</div>
+        </div>
+        <div class="estadistica">
+          <div class="estadistica__numero" data-valor="24" data-sufijo="+">0</div>
+          <div class="estadistica__barra"></div>
+          <div class="estadistica__etiqueta">Convenios institucionales</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       NOTICIAS RECIENTES — con pestañas de filtro
+       ===================================================================== -->
+  <section class="seccion seccion--alt" id="noticias">
+    <div class="contenedor">
+      <div class="encabezado-seccion reveal">
+        <span class="eyebrow"><i class="fa-solid fa-newspaper"></i> Actualidad institucional</span>
+        <h2 class="titulo-seccion">Noticias recientes</h2>
+        <p class="descripcion-seccion">Mantente al día con los logros, actividades y novedades de nuestra comunidad educativa.</p>
+      </div>
+
+      <div class="tabs-noticias reveal">
+        <button class="activo" data-categoria="todas">Todas</button>
+        <button data-categoria="tecnologia">Tecnología</button>
+        <button data-categoria="agropecuaria">Agropecuaria</button>
+        <button data-categoria="institucional">Institucional</button>
+      </div>
+
+      <div class="noticias-grid reveal">
+        <article class="noticia-card" data-categoria="tecnologia">
+          <div class="noticia-card__imagen"><img src="https://picsum.photos/seed/noticia-tech/640/420" alt="Estudiantes de TI en hackatón institucional" loading="lazy"></div>
+          <div class="noticia-card__cuerpo">
+            <span class="noticia-card__fecha">12 jun. 2026</span>
+            <h3 class="noticia-card__titulo">Estudiantes de APS-TI ganan hackatón regional</h3>
+            <p class="noticia-card__texto">Un equipo de tercer ciclo desarrolló una solución de monitoreo agrícola con sensores IoT en 48 horas.</p>
+            <a href="#" class="noticia-card__link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="noticia-card" data-categoria="agropecuaria">
+          <div class="noticia-card__imagen"><img src="https://picsum.photos/seed/noticia-agro/640/420" alt="Estudiantes de Producción Agropecuaria en campo demostrativo" loading="lazy"></div>
+          <div class="noticia-card__cuerpo">
+            <span class="noticia-card__fecha">3 jun. 2026</span>
+            <h3 class="noticia-card__titulo">Nueva parcela demostrativa de cultivo hidropónico</h3>
+            <p class="noticia-card__texto">El programa de Producción Agropecuaria inaugura un módulo de hidroponía para prácticas de tercer y cuarto ciclo.</p>
+            <a href="#" class="noticia-card__link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="noticia-card" data-categoria="institucional">
+          <div class="noticia-card__imagen"><img src="https://picsum.photos/seed/noticia-institucional/640/420" alt="Ceremonia institucional de bienvenida a nuevos estudiantes" loading="lazy"></div>
+          <div class="noticia-card__cuerpo">
+            <span class="noticia-card__fecha">28 may. 2026</span>
+            <h3 class="noticia-card__titulo">Bienvenida a la nueva promoción 2026-II</h3>
+            <p class="noticia-card__texto">Más de 180 estudiantes ingresantes participaron en la ceremonia de inducción institucional.</p>
+            <a href="#" class="noticia-card__link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       EVENTOS
+       ===================================================================== -->
+  <section class="seccion" id="eventos">
+    <div class="contenedor">
+      <div class="grid-2">
+        <div class="reveal">
+          <span class="eyebrow"><i class="fa-solid fa-calendar-days"></i> Agenda</span>
+          <h2 class="titulo-seccion">Próximos eventos</h2>
+          <p class="descripcion-seccion">Actividades académicas y culturales abiertas a la comunidad institucional.</p>
+        </div>
+
+        <div class="reveal reveal--retraso-1">
+          <div class="evento-item">
+            <div class="evento-fecha"><strong>24</strong><span>Jun</span></div>
+            <div class="evento-info"><h4>Feria de innovación tecnológica</h4><p>Exposición de proyectos de estudiantes de APS-TI · Patio central</p></div>
+            <a href="contacto.html" class="btn btn--fantasma btn--sm">Más info</a>
+          </div>
+          <div class="evento-item">
+            <div class="evento-fecha"><strong>02</strong><span>Jul</span></div>
+            <div class="evento-info"><h4>Día de campo agropecuario</h4><p>Demostración de técnicas de crianza tecnificada · Módulo agro</p></div>
+            <a href="contacto.html" class="btn btn--fantasma btn--sm">Más info</a>
+          </div>
+          <div class="evento-item">
+            <div class="evento-fecha"><strong>15</strong><span>Jul</span></div>
+            <div class="evento-info"><h4>Charla: empleabilidad y CV digital</h4><p>Orientación profesional para estudiantes egresantes · Auditorio</p></div>
+            <a href="contacto.html" class="btn btn--fantasma btn--sm">Más info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       TESTIMONIOS
+       ===================================================================== -->
+  <section class="seccion seccion--alt" id="testimonios">
+    <div class="contenedor">
+      <div class="encabezado-seccion reveal">
+        <span class="eyebrow"><i class="fa-solid fa-comment-dots"></i> Voces de nuestra comunidad</span>
+        <h2 class="titulo-seccion">Lo que dicen nuestros estudiantes y egresados</h2>
+      </div>
+
+      <div class="testimonios-grid reveal">
+        <div class="testimonio">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>Las prácticas en el laboratorio de redes me dieron la base para conseguir mi primer empleo como soporte técnico antes de egresar.</p>
+          <div class="testimonio__autor">
+            <div class="testimonio__avatar">MR</div>
+            <div><strong>Marco Ramos</strong><span>Egresado APS-TI, 2025</span></div>
+          </div>
+        </div>
+        <div class="testimonio">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>Aprendí a gestionar un módulo de crianza tecnificada desde cero. Hoy administro mi propio emprendimiento agropecuario.</p>
+          <div class="testimonio__autor">
+            <div class="testimonio__avatar">LC</div>
+            <div><strong>Lucía Castro</strong><span>Egresada Producción Agropecuaria, 2024</span></div>
+          </div>
+        </div>
+        <div class="testimonio">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>Los docentes están realmente actualizados. Aprendí buenas prácticas de desarrollo que uso todos los días en mi trabajo.</p>
+          <div class="testimonio__autor">
+            <div class="testimonio__avatar">DF</div>
+            <div><strong>Diana Flores</strong><span>Estudiante de 5.º ciclo, APS-TI</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       ACCESOS RÁPIDOS A DOCUMENTOS
+       ===================================================================== -->
+  <section class="seccion" id="documentos">
+    <div class="contenedor">
+      <div class="encabezado-seccion reveal">
+        <span class="eyebrow"><i class="fa-solid fa-folder-open"></i> Documentos institucionales</span>
+        <h2 class="titulo-seccion">Acceso rápido</h2>
+      </div>
+
+      <div class="accesos-rapidos reveal">
+        <a href="documentos/reglamento.pdf" target="_blank" class="acceso-card">
+          <i class="fa-solid fa-file-pdf icono-pdf"></i>
+          <div><strong>Reglamento institucional</strong><span>PDF · Actualizado 2026</span></div>
+          <i class="fa-solid fa-download"></i>
+        </a>
+        <a href="documentos/prospecto.pdf" target="_blank" class="acceso-card">
+          <i class="fa-solid fa-file-pdf icono-pdf"></i>
+          <div><strong>Prospecto de admisión</strong><span>PDF · Proceso 2026</span></div>
+          <i class="fa-solid fa-download"></i>
+        </a>
+        <a href="carreras.html" class="acceso-card">
+          <i class="fa-solid fa-file-pdf icono-pdf"></i>
+          <div><strong>Mallas curriculares</strong><span>Ver carreras</span></div>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       MAPA DE UBICACIÓN
+       ===================================================================== -->
+  <section class="seccion seccion--alt" id="mapa">
+    <div class="contenedor">
+      <div class="mapa-seccion reveal">
+        <iframe
+          src="https://www.google.com/maps?q=Instituto+Superior+Tecnologico+Santa+Lucia&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Ubicación del IESTP Santa Lucía">
+        </iframe>
+        <div class="mapa-info">
+          <h3>Visítanos</h3>
+          <div class="mapa-dato">
+            <i class="fa-solid fa-location-dot"></i>
+            <div><strong>Dirección</strong><span>Av. Santa Lucía 450, distrito de Santa Lucía, Perú</span></div>
+          </div>
+          <div class="mapa-dato">
+            <i class="fa-solid fa-clock"></i>
+            <div><strong>Atención</strong><span>Lunes a viernes, 8:00 a.m. – 5:00 p.m.</span></div>
+          </div>
+          <a href="contacto.html" class="btn btn--primario btn--sm">Cómo llegar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       BANDA "SÍGUENOS" — Redes sociales
+       ===================================================================== -->
+  <section class="seccion seccion--oscura" style="padding: 3.5rem 0;">
+    <div class="contenedor" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1.5rem;">
+      <div>
+        <h3 style="color:#fff; margin-bottom:.3rem;">Síguenos en nuestras redes</h3>
+        <p style="color:rgba(255,255,255,.7); margin:0; font-size:.92rem;">Entérate primero de noticias, becas y eventos institucionales.</p>
+      </div>
+      <div class="social-icons" style="margin-top:0;">
+        <a href="https://web.facebook.com/tecno.santa.lucia?_rdc=1&_rdr#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       FOOTER PROFESIONAL (presente en todas las páginas)
+       ===================================================================== -->
+  <footer class="site-footer">
+    <div class="footer__top">
+      <div class="contenedor footer__grid">
+        <div>
+          <div class="footer__marca">
+            <span><strong>IESTP Santa Lucía</strong><span>Instituto tecnológico público</span></span>
+          </div>
+          <p class="footer__texto">Formando profesionales técnicos en Tecnologías de la Información y Producción Agropecuaria, comprometidos con el desarrollo del país.</p>
+          <div class="social-icons">
+            <a href="https://web.facebook.com/tecno.santa.lucia?_rdc=1&_rdr#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h5>Navegación</h5>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="carreras.html">Carreras</a></li>
+            <li><a href="admision.html">Admisión</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h5>Carreras</h5>
+          <ul>
+            <li><a href="carreras.html#tecnologia">Arquitectura de Plataformas y Servicios de TI</a></li>
+            <li><a href="carreras.html#agropecuaria">Producción Agropecuaria</a></li>
+            <li><a href="admision.html">Proceso de admisión</a></li>
+            <li><a href="documentos/prospecto.pdf" target="_blank">Prospecto 2026</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h5>Contacto</h5>
+          <ul class="footer__contacto">
+            <li><i class="fa-solid fa-location-dot"></i>Mz A, Lt 01 Av Manuel Prado, Barrio 25 de Junio N° 102, 106, 110, 114 y 118</li>
+            <li><i class="fa-solid fa-phone"></i> 051-451305</li>
+            <li><i class="fa-solid fa-envelope"></i> informes@santalucia.edu.pe</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:.8rem;">
+        <span>© <span data-anio>2026</span> IESTP Santa Lucía. Todos los derechos reservados.</span>
+        <span><a href="#">Política de privacidad</a> · <a href="#">Libro de reclamaciones</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       BOTÓN FLOTANTE DE WHATSAPP Y BOTÓN VOLVER ARRIBA
+       ===================================================================== -->
+  <a href="https://wa.me/51987654321?text=Hola%2C%20quisiera%20información%20sobre%20el%20IESTP%20Santa%20Lucía"
+     class="whatsapp-flotante" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+  <button class="volver-arriba" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- ===================== SCRIPT PRINCIPAL ===================== -->
+  <script src="js/script.js"></script>
+</body>
+</html>
